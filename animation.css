@@ -1,0 +1,81 @@
+.bar
+        {
+            background-color: #FFC0CB;
+    
+            background-image: -webkit-linear-gradient(top,  #FFC0CB,  #FFC0CB);
+            background-image: -moz-linear-gradient(top,  #FFC0CB, #FFC0CB);
+            background-image: linear-gradient(top,  #FFC0CB,  #FFC0CB);
+            box-shadow: 0 5px 5px #ccc;
+            border-radius: 2px;
+            width: 100%;
+            padding: 10px;
+            margin: 45px auto 25px;
+            position: relative;
+            text-align: right;
+            line-height: 1;
+        }
+        .bar a
+        {
+            background: #4987a1 center center no-repeat;
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            text-decoration: none !important;
+            margin-right: 5px;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .bar a.active
+        {
+            background-color: black;
+        }
+        .bar a.list-icon
+        {
+            background-image: url(data:image/png;base64, + +A/g9MDJQBRhYg8RFqMwg8RJIUINYLFDmBUi+ADQAF1n8ofk9yIAy6WPg4GgtDMRYAAgwAdLYwLAoIwPgAAAAASUVORK5CYII=);
+            }
+        .bar a.grid-icon
+        {
+            background-image: url(data:image/png;base64, +hNoDAQyQ5osQZIT4gH1DsBZABH6AB8x/JaQzEig++WPiII7Rxio/GwmCIBYAAAwAwVIzMp1R0aQAAAABJRU5ErkJggg==);
+        }
+        
+        ul.list
+        {
+            list-style: gujarati;
+            width: 100%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        ul.list li
+        {
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            overflow: hidden;
+        }
+        ul.list li img
+        {
+            float: left;
+            border: none;
+        }
+        ul.list li p
+        {
+            margin-left: 135px;
+            font-weight: bold;
+            color: #7f6e7a;
+        }
+        
+        ul.grid
+        {
+            list-style: none;
+            width: 100%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        ul.grid li
+        {
+            padding: 55px;
+            float: left;
+        }
+        div.ng-hide {
+  animation: 0.5s myChange;}
+}
+
